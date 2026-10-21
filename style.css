@@ -1,13 +1,22 @@
+
+@keyframes fadein {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+}
+
 #background{
     width: 100vw;
-            height: 100vh;
+            height: 60vh;
             position: absolute;
             top: 0%;
             left: 0%;
-            background-image: url(https://lh3.googleusercontent.com/drive-storage/AJQWtBMl9g3vca5SinDWLxcAlfRyrausUeE6MdR9vcRbAxcxCSBOT28lqtJ81C0T3CTG4_hLnmfoWUVat5ixEv3IUDHdPqw1FpD44KfTqLXW13u2btZ7DQ=w1920-h946?auditContext=forDisplay);
+            background-image: url(https://cdn.pixabay.com/photo/2026/07/13/21/26/21-26-44-214_1280.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            animation-name: fadein;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
 }
 
 #title{
@@ -17,5 +26,4 @@
             position: absolute;
             top: 25%;
             left: 38%;
-            animation: rgb 5s infinite;
         }
