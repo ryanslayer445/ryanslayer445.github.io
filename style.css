@@ -56,9 +56,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: rotate(23deg);
+    transform: rotate(32deg);
     position: fixed;
-    top: 700px; 
+    top: 680px; 
     left: 50%
 }
 .arrow {
@@ -66,7 +66,7 @@
     height: 45px;
     border-right: 5px solid white;
     border-bottom: 5px solid white;
-    transform: rotate(50deg); 
+    transform: rotate(30deg); 
     opacity: 0;
     animation: flashDown 1.5s infinite;
 }
