@@ -43,6 +43,18 @@
         font-family: 'Fira Sans', sans-serif;
         }
 
+#pacifiers{
+        width: 700px;
+        height: 500px;
+        font-size: 5rem;
+        position: absolute;
+        top: 100%;
+        left: 28%;
+        font-weight: bold;
+        font-family: 'Old Standard TT', serif;
+        transform: rotate(2deg);
+}
+
 #logo{
     transform: skewX(30deg) scale(0.8);
     width: 20px;
