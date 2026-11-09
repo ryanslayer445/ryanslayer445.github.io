@@ -49,30 +49,28 @@
         left: 3%;
         font-weight: bold;
         font-family: 'Old Standard TT', serif;
+        color: darkgreen;
         
 }
 
 #logo{
-    transform: skewX(30deg) scale(0.8);
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 0%;
-    right: 75%;
+        transform: skewX(30deg) scale(0.8);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0%;
+        right: 75%;
 
 }
-  #itemlist{
+        #itemlist{
         width: 700px;
         height: 700px;
         font-size: 10rem;
         position: absolute;
         top: 110%;
         left: 5%;
-    a:link{
-            text-decoration:none;
-            font-size: 5rem;
-            color: black;
         }
+        
         .enlarge{
             font-size: 3rem;
         }
@@ -80,4 +78,34 @@
             font-size: 5rem;
             color: green;
         }
-    }
+        a:link{
+            text-decoration:none;
+            font-size: 5rem;
+            color: black;
+        }
+
+
+
+.buttondiv{
+    width: 10vw;
+    height: 5vh;
+    position: absolute;
+    top: 137%;
+    left: 20%;
+    background-color: black;
+    color:white;
+    size: 5rem;
+
+}
+
+.buttondiv:hover{
+    background-color: blue;
+}
+
+a:link{
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    text-decoration: none;
+}
+    
